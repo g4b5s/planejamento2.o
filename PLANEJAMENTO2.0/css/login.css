@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Fredericka+the+Great&display=swap');
+
+
+h1 {
+    color: white;
+    font-family: "Fredericka the Great";
+    font-size: 30px;
+    text-align: center;  
+    font-weight: 400;
+    font-style: normal;
+}
+      
+    
+.container{
+    display: flex; 
+    background-color: linear-gradient(#19641d ,#98d2a4);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+    position: relative;
+    overflow: hidden;
+    height: 650px;
+    width: 5000px;
+    max-width: 200%;
+    min-width: 480px;
+    border-radius: 16px;
+    
+}
+
+.cor{
+  background-image: linear-gradient(#155318 ,#52935f);
+  background-position: 100%;
+  width: 400px;
+  padding: 0px 30px 0px 0px;
+}
+
+
+title{
+    font-family: Courier;
+    
+}
+
+p{
+    font-family: "Amatic SC";
+    color: #fff;
+    font-size: 20px;
+    right: 25%;
+    
+} 
+
+.input-box{
+    width: 100%;
+    height: 100%;
+    background: #F6F98A;
+    border: none;
+    outline: none;
+    border: 2px solid;
+    border-radius: 40px;
+    padding: 20px 45px 20px 20px;
+}
+
+body{
+    background-image: linear-gradient(#9bd29e ,#c7f1d0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 400px;
+}
+
+.container form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 80%;
+    
+}
+
+.container input{
+    background-color: #F6F98A;
+    border: none;
+    margin: 8px 0;
+    padding: 10px 15px;
+    font-size: 13px;
+    border-radius: 8px;
+    width: 100%;
+    outline: none;
+    border-radius: 30px;
+    padding: 10px 20px 8px 28px;
+}
+
+img{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    transition: all 0;
+    
+}
+
+.container button{
+    background-color: #deb84f;
+    color: #fff;
+    font-size: 12px;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    border-radius: 30px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    cursor: pointer;
+    line-height: 1.6;
+    font-family: "Fredericka the Great";
+    font-size: 15px;
+    text-align: center;  
+    font-weight: 40;
+    font-style: normal;
+}
+
+
+.input-icon-senha {
+      background-image: url(../icons/lock.png);
+      background-repeat: no-repeat;
+      
+}
+
+
+.input-icon-email {
+        background-image: url(../icons/at-regular.png);
+        background-repeat: no-repeat;
+        
+}
+
+
+.input-icon-nome {
+        background-image: url(../icons/user.png);
+        background-repeat: no-repeat;
+        
+}
+
+label{
+    font-family: "Amatic SC";
+    color: #fff;
+    Word-spacing: 80px;
+    font-size: 20px;
+}
+
